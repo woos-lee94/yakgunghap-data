@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yakgunghap App Review Demo</title>
+<link rel="stylesheet" href="../style.css">
+<style>
+  img { width: 100%; height: auto; border: 1px solid var(--line); border-radius: 12px; background: #fff; }
+  .steps li { margin: 4px 0; }
+  code { font-size: 0.95em; }
+</style>
+</head>
+<body>
+<main>
+<h1>App Review demo materials</h1>
+<p class="muted">약궁합 (Yakgunghap) · Sample images for testing the barcode and pharmacy-bag features. They contain no real patient or pharmacy information.</p>
+
+<h2>1. Box barcode (상자 바코드)</h2>
+<p>Show this page on another screen (for example a Mac) and scan it with the review device.</p>
+<ol class="steps">
+<li>In the app, tap <b>"약 추가"</b> (Add) on the "내 약통" tab, then <b>"상자 바코드"</b> (Box barcode).</li>
+<li>On the camera explanation screen tap <b>"계속"</b> (Continue) and choose whether to allow camera access in the system prompt.</li>
+<li>Point the camera at barcode 1. The app opens <b>명인피모짓정4밀리그램</b>; tap <b>"이 약이 맞아요 — 내 약통에 넣기"</b> (Add to my medicines).</li>
+<li>Do the same with barcode 2 (<b>부광미졸렌정10밀리그램(미졸라스틴)</b>). The home screen then shows a red <b>"위험 1"</b> (Danger 1) contraindication.</li>
+<li>Barcode 3 is a health supplement (<b>고려홍삼분말캡슐</b>, red ginseng).</li>
+</ol>
+<p><img src="barcode-1-pimozide.png" alt="EAN-13 barcode 8806519009402, 명인피모짓정4밀리그램"></p>
+<p><img src="barcode-2-mizolastine.png" alt="EAN-13 barcode 8806422007205, 부광미졸렌정10밀리그램(미졸라스틴)"></p>
+<p><img src="barcode-3-supplement.png" alt="EAN-13 barcode 8801045020457, 고려홍삼분말캡슐"></p>
+
+<h2>2. Pharmacy bag / prescription (약봉투·처방전)</h2>
+<p>The easiest way is to pick the sample from Photos, so no second screen is needed.</p>
+<ol class="steps">
+<li>On the review device, open this page in Safari, touch and hold the sample below and tap <b>"Save to Photos"</b> (or download <a href="sample-medication-guide.png">sample-medication-guide.png</a>).</li>
+<li>In the app, tap <b>"약 추가"</b> (Add), then <b>"약봉투·처방전"</b> (Pharmacy bag / prescription), then <b>"앨범에서 고르기"</b> (Choose from album) and select the sample. (Or tap <b>"사진 찍기"</b> (Take photo) and photograph it on another screen.)</li>
+<li>The app reads the text on the device, skips the lines that look like personal information (name, date, pharmacy) and preselects the two medicines. Tap <b>"고른 2개 내 약통에 넣기"</b> (Add the 2 selected to my medicines).</li>
+<li>The home screen shows the same contraindication as above. The photo copy is deleted right after reading.</li>
+</ol>
+<p><img src="sample-medication-guide.png" alt="Sample medication guide listing 명인피모짓정4밀리그램 and 부광미졸렌정10밀리그램(미졸라스틴)"></p>
+</main>
+</body>
+</html>
